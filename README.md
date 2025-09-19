@@ -60,13 +60,14 @@ src/
 ├─ Security/           # Gestion JWT & Authenticator
 ├─ Service/            # Services métiers (Email, PasswordReset, User)
 └─ EventSubscriber/    # Gestion des événements (ex: envoi mail reset)
-🔑 API Endpoints
-Méthode	Endpoint	Description	Auth
-POST	/auth/register	Créer un compte utilisateur	❌
-POST	/auth/login	Connexion utilisateur, retour token JWT	❌
-GET	/user/me	Récupérer le profil de l’utilisateur connecté	✅
-POST	/auth/forgot-password	Demander un email de réinitialisation	❌
-POST	/auth/reset-password	Réinitialiser le mot de passe via le lien	❌
+
+🔑 API         Endpoints
+Méthode	       Endpoint	                Description	                                   Auth
+POST	       /auth/register	        Créer un compte utilisateur	                    ❌
+POST	       /auth/login	            Connexion utilisateur, retour token JWT	        ❌
+GET	           /user/me	                Récupérer le profil de l’utilisateur connecté	✅
+POST	      /auth/forgot-password	    Demander un email de réinitialisation	        ❌
+POST	     /auth/reset-password	    Réinitialiser le mot de passe via le lien	    ❌
 
 🔒 Authentification
 L’API utilise JWT (JSON Web Token) pour sécuriser les endpoints.
@@ -81,7 +82,6 @@ Copier le code
 Utilisez ce token dans vos requêtes :
 
 http
-Copier le code
 GET /user/me
 Authorization: Bearer <token>
 📧 Réinitialisation du mot de passe
