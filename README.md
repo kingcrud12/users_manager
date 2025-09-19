@@ -6,13 +6,14 @@
 ![PHP](https://img.shields.io/badge/PHP-8.x-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-**Users manager** est une API qui assure la gestion des utilisateurs : 
+**Users manager** est une API qui assure : 
 
-- Création de compte,
+- Création de compte utilisateurs,
 - Connexion,
 - Déconnexion,
-- Reset de mot de passe via un lien recu par mail,
 - Authentification JWT
+- Reset de mot de passe via un lien recu par mail
+- Notification par mail
 - RBAC
 
 ---
@@ -49,9 +50,9 @@ php bin/console doctrine:migrations:migrate
 
 # Lancer le serveur de développement
 symfony server:start
+
 📂 Structure du projet
-pgsql
-Copier le code
+
 src/
 ├─ Controller/         # Contrôleurs (auth, user, password reset)
 ├─ Entity/             # Entités Doctrine (User, ResetPasswordRequest)
