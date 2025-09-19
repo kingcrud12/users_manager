@@ -75,7 +75,7 @@ Copier le code
 }
 Utilisez ce token dans vos requêtes :
 
-http
+
 GET /user/me
 Authorization: Bearer <token>
 📧 Réinitialisation du mot de passe
