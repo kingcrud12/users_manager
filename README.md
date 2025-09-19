@@ -10,8 +10,7 @@
 
 - Authentification JWT (login, logout)  
 - Gestion des utilisateurs (register , get profile , update profile , rôles et permissions  - RBAC)
-- Reset de mot de passe via un lien recu par mail
-- Notification par mail
+- Notification par mail (confirmation de création de compte, confirmation de modifcation de mot de passe , lien de réinitialisation de mot de passe)
 
 ---
 
