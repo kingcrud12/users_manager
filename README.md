@@ -8,8 +8,8 @@
 
 **Users manager** est une API qui assure : 
 
-- Authentification JWT (inscription, login, logout)  
-- Gestion des utilisateurs, rôles et permissions  (RBAC)
+- Authentification JWT (login, logout)  
+- Gestion des utilisateurs (register, get profile, update profile, rôles et permissions  (RBAC)
 - Reset de mot de passe via un lien recu par mail
 - Notification par mail
 
