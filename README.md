@@ -1,8 +1,8 @@
 # Users manager
 
 ![Symfony](https://img.shields.io/badge/Symfony-7.4.x-green)
-![Doctrine](https://img.shields.io/badge/Doctrine.x-red)
-![Mailjet](https://img.shields.io/badge/Mailhet.x-blue)
+![Doctrine](https://img.shields.io/badge/Doctrine-red)
+![Mailjet](https://img.shields.io/badge/Mailjet-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.x-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
@@ -24,8 +24,6 @@
 - PHP >= 8.1  
 - Composer  
 - Symfony CLI (optionnel mais recommandé)  
-- MySQL ou PostgreSQL  
-- Node.js & Yarn (pour gérer éventuellement les assets)  
 
 ### Étapes d’installation
 
