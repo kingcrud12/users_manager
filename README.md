@@ -98,6 +98,7 @@ Mot de passe oublié → /auth/forgot-password
 Réinitialiser via /auth/reset-password
 
 🤝 Contribuer
+
 Forker le projet
 
 Créer une branche (git checkout -b feature/ma-feature)
